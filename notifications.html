@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-<!-- Page made by Brit Weinstein -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -35,18 +34,25 @@
         <h2>Subscribe for Updates</h2>
 
         <form class="subscribe-form" aria-label="Subscribe for updates">
-          <div class="form-row">
-            <label for="first">First name</label>
-            <input id="first" name="first" type="text" placeholder="Jane">
-            <label for="last">Last name</label>
-            <input id="last" name="last" type="text" placeholder="Smitherton">
-          </div>
+  <div class="form-row">
+    <div class="form-field">
+      <label for="first">First name</label>
+      <input id="first" name="first" type="text" placeholder="Jane">
+    </div>
 
-          <label for="email">Email address</label>
-          <input id="email" name="email" type="email" placeholder="email@domain.tld">
+    <div class="form-field">
+      <label for="last">Last name</label>
+      <input id="last" name="last" type="text" placeholder="Smitherton">
+    </div>
+  </div>
 
-          <button type="submit" class="btn">Submit</button>
-        </form>
+  <div class="form-field">
+    <label for="email">Email address</label>
+    <input id="email" name="email" type="email" placeholder="email@domain.tld">
+  </div>
+
+  <button type="submit" class="btn">Submit</button>
+</form>
       </article>
 
       <aside class="card">
@@ -61,5 +67,4 @@
     </div>
   </footer>
 </body>
-
 </html>
