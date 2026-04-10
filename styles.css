@@ -229,6 +229,11 @@ img{
   outline-offset:2px;
 }
 
+.subscribe-form input.input-error{
+  border-color:#b00020;
+  background:#fff7f8;
+}
+
 .btn{
   display:inline-flex;
   align-items:center;
@@ -286,4 +291,23 @@ img{
   .site-header{
     padding-bottom:10px;
   }
+}
+
+.form-status{
+  margin-top:14px;
+  padding:12px 14px;
+  border-radius:10px;
+  font-weight:600;
+}
+
+.form-status--success{
+  background:#eef9f0;
+  color:#14532d;
+  border:1px solid #b7e3c0;
+}
+
+.form-status--error{
+  background:#fff4f4;
+  color:#9f1239;
+  border:1px solid #f3c0c6;
 }
